@@ -10,7 +10,7 @@ yarn add @roots/bud-stylelint --dev
 
 Next, in your theme directory create a `.stylelintrc.js` file and include the Sage default stylelint config:
 
-```ts title="bud.config.mjs"
+```ts title=".stylelintrc"
 module.exports = {
   extends: ['@roots/sage/stylelint', '@roots/bud-tailwindcss/stylelint'],
   rules: {
